@@ -1,0 +1,222 @@
+.App {
+  text-align: center;
+}
+
+.formapp {
+  padding: 20px;
+}
+
+body {
+  background: #bdc3c7;
+  background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);
+  background: linear-gradient(to right, #2c3e50, #bdc3c7);
+}
+
+.form {
+  background-color: aliceblue;
+  border-radius: 25px;
+  width: 25%;
+  margin: 200px auto;
+  padding: 50px 20px;
+}
+
+.form_field {
+  padding: 5px;
+}
+
+.form_field label {
+  float: left;
+}
+
+.form_field input {
+  width: 90%;
+  padding: 3px;
+}
+
+.form_field button {
+  color: white;
+  background-color: #2c3e50;
+  padding: 5px 10px;
+  border-radius: 5px;
+
+}
+
+.form_field button:hover {
+  background-color: white;
+  color: black;
+}
+
+p {
+  margin: 0;
+  color: red;
+}
+
+.role {
+  color: black;
+  padding-bottom: 15px;
+}
+
+.role p {
+  color: black;
+}
+
+.name_row {
+  width: 48%;
+}
+
+.name {
+  display: flex;
+}
+
+.footer {
+  position: absolute;
+  bottom: 5px;
+  right: 20px;
+}
+
+.navbar li {
+  display: inline-block;
+  padding: 10px 5px;
+  font-size: 20px;
+}
+
+.navbar {
+  text-align: right;
+  padding: 0px 50px 0px;
+  background-color: #a05f5f3b;
+}
+
+.active {
+  color: red;
+  background-color: aliceblue;
+  padding: 5px;
+  border-radius: 10px;
+
+}
+
+.navbar a {
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: white;
+}
+
+table {
+  width: 100%;
+}
+
+.showtable {
+  width: 50%;
+  border: 2px solid;
+  margin: 10px;
+}
+
+.showtable td {
+  padding: 10px;
+  border: 2px solid;
+}
+
+.showtable input {
+  padding: 5px;
+  width: 70%;
+  font-size: 15px;
+  color: black;
+}
+
+.showtable label {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.theading {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.tableslice {
+  padding: 10px;
+  background-color: rgb(187, 208, 227);
+}
+
+.user-table {
+  padding: 25px;
+  font-size: 20px;
+}
+
+table {
+  width: 40%;
+    margin: auto;
+    padding: 30px;
+    background: aliceblue;
+    border-radius: 15px;
+}
+
+.user-table td {
+  display: block;
+  text-align: initial;
+  font-size: 16px;
+}
+
+.user-table input {
+ 
+}
+.user-input{
+  background-color: rgb(255 255 255);
+  color: #6e6e6e;
+  padding: 5px;
+  font-size: 15px;
+  width: 96%;
+  border: 1px solid #d5cbcb;
+  border-radius: 6px;
+  height: 25px;
+  box-shadow: 1px 2px 10px 3px #00000012;
+}
+.btn_edit {
+  font-size: 12px;
+  font-weight: 400;
+  display: inline-block;
+  color: white;
+  text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.4);
+  padding: 5px 30px;
+  background-color: rgb(112, 194, 112);
+  cursor: pointer;
+  margin: 0px 15px;
+}
+
+.btn_delete {
+  display: inline-block;
+  color: white;
+  background-color: rgb(197, 54, 54);
+  padding: 4px 20px;
+  text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+}
+
+.tablecenter {
+  width: 50%;
+  margin: auto;
+}
+
+.status_btn {
+  padding: 5px;
+  display: flex;
+  justify-content: flex-start;
+
+}
+
+.stausinput {
+  font-size: 12px;
+  color: gray
+}
+
+.form_btn {
+  max-width: 150px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.form_btn label {
+  font-size: 15px;
+}
